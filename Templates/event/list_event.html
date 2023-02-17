@@ -1,0 +1,6 @@
+<h1>Liste des evenemets</h1>
+{% for e in events %}
+    <h2>{{ e.title }}</h2>
+    <p>{{ e.description }}</p>
+    <p>{{ e.categoy }}</p>
+{% endfor %}    
